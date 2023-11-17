@@ -5,8 +5,6 @@ public class Main {
         Carpeta carpetaOriginal = new Carpeta("Carpeta1");
         carpetaOriginal.addElemento(new Archivo("Archivo1.txt"));
         carpetaOriginal.addElemento(new Archivo("Archivo2.txt"));
-        carpetaOriginal.addElemento(new Archivo("Documento1.txt"));
-
 
         // Crear una copia restringida de la carpeta utilizando un filtro
         CondicionNombre filtroNombre = new CondicionNombre("Archivo");
